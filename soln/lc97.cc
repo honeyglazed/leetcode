@@ -48,7 +48,6 @@ bool CanInterleave(const string& s1, const string& s2, const string& s3) {
         }
     }
     return dp[s1.size()][s2.size()];
-
 }
 
 int main() {

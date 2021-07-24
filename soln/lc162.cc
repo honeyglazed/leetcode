@@ -20,7 +20,7 @@ int findPeakElement(vector<int>& nums) {
   int l=0; int r=nums.size()-1;
   // 0 1
   // 1 2
-  //     
+  //
   if (nums.size() == 1 ) return 0;
   while (l <= r) {
     int m = l + (r-l)/2;
